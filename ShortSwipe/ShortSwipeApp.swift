@@ -12,6 +12,11 @@ struct ContentView: View {
               label: { Image(systemName: "star") }
             )
           }
+        /* something like this would be the ideal solution
+         .swipeActions(edge: .leading, action: {
+           print("swiped \(index)")
+         })
+         */
       }
     }
   }
